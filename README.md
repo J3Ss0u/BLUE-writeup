@@ -18,7 +18,8 @@ access.log file is a record of every request made to a web server. It contains d
 
 ## Challenge Solution
 To solve this challenge, you need to carefully examine the access.log file and identify unusual patterns or anomalies. Upon closer inspection, you may notice that some log entries contain a browser version with a typo: "Mozlla" instead of "Mozilla". This is a red flag, indicating that these log entries might be suspicious.
-<img width="1665" alt="Screen Shot 2024-07-07 at 10 17 53 AM" src="https://github.com/J3Ss0u/BLUE-writeup/assets/90192954/7396eed9-9a81-4e4b-8c81-f52aa5d83108">
+<img width="1665" alt="Screen Shot 2024-07-07 at 10 17 53 AM" src="https://github.com/J3Ss0u/BLUE-writeup/assets/90192954/d187538f-8c86-4415-acb1-6e9b9701fc4b">
+
 
 Further analysis reveals that each "Mozlla" log entry contains a character in the path directory, such as "/category/T". Your task is to collect these characters and arrange them in the correct order. However, the challenge is that the characters are scattered across different log entries, and the timestamps are not in chronological order.
 

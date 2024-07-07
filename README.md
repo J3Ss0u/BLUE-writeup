@@ -2,7 +2,7 @@
 
 <img width="949" alt="BLUE_description" src="https://github.com/J3Ss0u/BLUE-writeup/assets/90192954/63054837-ead5-41b8-bb20-8baef4f4a84e">
 
-__BLUE challenge one of DFIR challenges in Larbi CTF (Local CTF in 1337 school)__
+BLUE challenge one of DFIR challenges in Larbi CTF (Local CTF in 1337 school)
 
 ## Introduction
 In this challenge, you are presented with a access.log file, a crucial component of web server security and performance monitoring. Your task is to analyze the log entries, identify anomalies, and extract a hidden flag.
